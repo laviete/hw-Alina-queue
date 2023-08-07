@@ -3,7 +3,7 @@
 class IteratorQueue {
   constructor(queue) {
     this.queue = queue;
-    this.currentItem = 0;
+    this.currentItem = queue._head;
   }
   
   next() {
